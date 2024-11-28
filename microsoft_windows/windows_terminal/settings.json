@@ -4,15 +4,6 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
-        },
-        {
             "command": "unbound",
             "keys": "ctrl+shift+f"
         },
@@ -49,14 +40,18 @@
             "keys": "ctrl+["
         },
         {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
             "command": "paste",
             "id": "User.paste",
             "keys": "ctrl+v"
-        },
-        {
-            "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+f"
         },
         {
             "command": 
@@ -67,6 +62,11 @@
             },
             "id": "User.splitPane.10B260D2",
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+f"
         },
         {
             "command": 
@@ -132,7 +132,7 @@
             "experimental.rightClickContextMenu": false,
             "font": 
             {
-                "face": "Cascadia Code",
+                "face": "CaskaydiaCove Nerd Font Mono",
                 "features": {},
                 "size": 16
             },
